@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  background-color: aliceblue;
+  text-align: center;
+}
+nav{
+  text-align: center;
+}
+figure img{
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
+header nav a{
+  background-color: #999;
+}
+figcaption{
+  text-align: center;
+}
+section{
+  align-items: center;
+}
+#featured-property p{
+  align-items: center;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+#details{
+  display: flex;
+  flex-direction: row;
+  background-color:red;
+
+}
+#details div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
